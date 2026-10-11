@@ -1,0 +1,18 @@
+[
+  { "id": 1, "name": "BBS", "logo": "/rims/bbs.png" },
+  { "id": 2, "name": "OZ Racing", "logo": "/rims/oz-racing.png" },
+  { "id": 3, "name": "Enkei", "logo": "/rims/enkei.png" },
+  { "id": 4, "name": "Vossen", "logo": "/rims/vossen.png" },
+  { "id": 5, "name": "Rotiform", "logo": "/rims/rotiform.png" },
+  { "id": 6, "name": "HRE", "logo": "/rims/hre.png" },
+  { "id": 7, "name": "Work Wheels", "logo": "/rims/work-wheels.png" },
+  { "id": 8, "name": "Rays (Volk Racing)", "logo": "/rims/rays-volk-racing.png" },
+  { "id": 9, "name": "American Racing", "logo": "/rims/american-racing.png" },
+  { "id": 10, "name": "Fuel Off-Road", "logo": "/rims/fuel-off-road.png" },
+  { "id": 11, "name": "Konig", "logo": "/rims/konig.png" },
+  { "id": 12, "name": "Advan", "logo": "/rims/advan.png" },
+  { "id": 13, "name": "Momo", "logo": "/rims/momo.png" },
+  { "id": 14, "name": "Speedline", "logo": "/rims/speedline.png" },
+  { "id": 15, "name": "Borbet", "logo": "/rims/borbet.png" },
+  { "id": 16, "name": "Method Race Wheels", "logo": "/rims/method-race-wheels.png" }
+]

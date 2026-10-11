@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 440">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff4f4"/>
+      <stop offset="1" stop-color="#f1e9e9"/>
+    </linearGradient>
+    <linearGradient id="tire" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#555"/>
+      <stop offset="1" stop-color="#171717"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="440" fill="url(#bg)"/>
+  <ellipse cx="300" cy="347" rx="126" ry="19" fill="#d9cbcb"/>
+  <circle cx="300" cy="210" r="131" fill="url(#tire)"/>
+  <circle cx="300" cy="210" r="91" fill="#f6f3f3" stroke="#222" stroke-width="11"/>
+  <circle cx="300" cy="210" r="48" fill="#ddd7d7" stroke="#333" stroke-width="8"/>
+  <circle cx="300" cy="210" r="15" fill="#4b4b4b"/>
+  <g fill="#5b5b5b">
+    <circle cx="300" cy="177" r="6"/><circle cx="331" cy="200" r="6"/>
+    <circle cx="319" cy="237" r="6"/><circle cx="281" cy="237" r="6"/>
+    <circle cx="269" cy="200" r="6"/>
+  </g>
+  <path d="M212 117 235 133m130-16-23 16M169 199h25m187 0h25m-194 67 25-12m130 12-25-12m-93 93 10-29m76 29-10-29" stroke="#777" stroke-width="9" stroke-linecap="round"/>
+</svg>

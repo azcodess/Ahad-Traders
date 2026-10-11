@@ -1,0 +1,142 @@
+.site-footer {
+  color: #fff;
+  background: var(--gradient-red);
+}
+
+.footer-main {
+  display: grid;
+  grid-template-columns: 1.35fr 0.8fr 1fr 1fr;
+  gap: clamp(28px, 5vw, 70px);
+  padding-top: 66px;
+  padding-bottom: 57px;
+}
+
+.footer-lockup {
+  display: inline-flex;
+  align-items: center;
+  gap: 11px;
+  font-family: "Manrope", sans-serif;
+  font-size: 1.16rem;
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.footer-lockup img {
+  width: 42px;
+  height: 42px;
+  border: 2px solid rgb(255 255 255 / 40%);
+  border-radius: 13px;
+}
+
+.footer-lockup b {
+  font-weight: 800;
+}
+
+.footer-about > p {
+  max-width: 290px;
+  margin: 19px 0;
+  color: rgb(255 255 255 / 82%);
+  font-size: 0.87rem;
+  line-height: 1.8;
+}
+
+.social-links {
+  display: flex;
+  gap: 9px;
+}
+
+.social-links a {
+  display: grid;
+  width: 35px;
+  height: 35px;
+  place-items: center;
+  border: 1px solid rgb(255 255 255 / 35%);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 8%);
+  font-size: 1.05rem;
+  font-weight: 800;
+  transition: background 180ms ease, transform 180ms ease;
+}
+
+.social-links a:hover {
+  background: rgb(255 255 255 / 22%);
+  transform: translateY(-2px);
+}
+
+.footer-column {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 4px;
+}
+
+.footer-column h2 {
+  margin: 0 0 8px;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.97rem;
+  font-weight: 800;
+}
+
+.footer-column a,
+.footer-column p {
+  margin: 0;
+  color: rgb(255 255 255 / 82%);
+  font-size: 0.84rem;
+  line-height: 1.65;
+  transition: color 160ms ease;
+}
+
+.footer-column a:hover {
+  color: #fff;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.hours-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  color: rgb(255 255 255 / 85%);
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.hours-status i {
+  width: 7px;
+  height: 7px;
+  flex: 0 0 7px;
+  border-radius: 50%;
+  background: #aaffc5;
+  box-shadow: 0 0 9px rgb(170 255 197 / 65%);
+}
+
+.footer-bottom {
+  padding: 17px 24px;
+  border-top: 1px solid rgb(255 255 255 / 19%);
+  background: rgb(75 0 12 / 17%);
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: rgb(255 255 255 / 78%);
+  font-size: 0.78rem;
+}
+
+@media (max-width: 900px) {
+  .footer-main {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 38px 44px;
+  }
+}
+
+@media (max-width: 540px) {
+  .footer-main {
+    grid-template-columns: 1fr;
+    gap: 31px;
+    padding-top: 48px;
+    padding-bottom: 42px;
+  }
+}

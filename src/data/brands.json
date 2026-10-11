@@ -1,0 +1,18 @@
+[
+  { "id": 1, "name": "Michelin", "logo": "/brands/michelin.png" },
+  { "id": 2, "name": "Bridgestone", "logo": "/brands/bridgestone.png" },
+  { "id": 3, "name": "Goodyear", "logo": "/brands/goodyear.png" },
+  { "id": 4, "name": "Pirelli", "logo": "/brands/pirelli.png" },
+  { "id": 5, "name": "Continental", "logo": "/brands/continental.png" },
+  { "id": 6, "name": "Dunlop", "logo": "/brands/dunlop.png" },
+  { "id": 7, "name": "Yokohama", "logo": "/brands/yokohama.png" },
+  { "id": 8, "name": "Hankook", "logo": "/brands/hankook.png" },
+  { "id": 9, "name": "Falken", "logo": "/brands/falken.png" },
+  { "id": 10, "name": "Maxxis", "logo": "/brands/maxxis.png" },
+  { "id": 11, "name": "Kumho", "logo": "/brands/kumho.png" },
+  { "id": 12, "name": "Nexen", "logo": "/brands/nexen.png" },
+  { "id": 13, "name": "Cooper", "logo": "/brands/cooper.png" },
+  { "id": 14, "name": "BFGoodrich", "logo": "/brands/bfgoodrich.png" },
+  { "id": 15, "name": "General", "logo": "/brands/general.png" },
+  { "id": 16, "name": "Toyotires", "logo": "/brands/toyotires.png" }
+]
